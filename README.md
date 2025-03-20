@@ -8,8 +8,8 @@ Goal: The purpose of this project is to test java application connectivity with 
 - `src/main/webapp/userRegistration.jsp`
 
 #### Steps for creating Schema
-
-`CREATE TABLE `USER` (
+```
+CREATE TABLE `USER` (
   `id` int(10) unsigned NOT NULL auto_increment,
   `first_name` varchar(45) NOT NULL,
   `last_name` varchar(45) NOT NULL,
@@ -18,8 +18,8 @@ Goal: The purpose of this project is to test java application connectivity with 
   `password` varchar(45) NOT NULL,
   `regdate` date NOT NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;`
-
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
 
 ### Steps for building/running this project.
 
